@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800;900&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    /* border:0.2px solid red; */
+}
+
+a { color: inherit; 
+    text-decoration: none;}
+.container{
+    margin:50px 50px 
+
+
+}
+.navbar-container{
+    /* background-color: aqua; */
+    display:flex;
+    height: 20vh;
+    justify-content: space-between;
+
+    
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-left: 20px;
+    padding: 0px 20px;
+    
+}
+.list-item{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 25px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: large;
+    font-weight: 600;
+
+}
+.list-item:hover{
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.button-group{
+    display: flex;
+    margin-top: 20px;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.nav-button{
+    position: relative;
+    bottom: 15px;
+   padding:10px 30px 10px 30px;
+   /* margin-bottom: 100px; */
+   letter-spacing: 1px;
+   font-size: large;
+   
+
+   border-radius: 15px;
+   background-color: #fff;
+   font-family: 'Poppins', sans-serif;
+   
+
+}
+.search-icon{
+    margin-right: 10px;
+
+   
+}
+
+.hero-container{
+    display: flex;
+    margin-top:15px;
+    left:2000px;
+}
+
+.square{
+    position: absolute;
+    /* z-index: -1; */
+}
+.square img{
+    height: 350px;
+    left: 110px;
+    top:210px;
+    position: absolute;
+    /* z-index: -1; */
+}
+section:nth-child(2) > div > div:nth-child(4) > img {
+    
+        height: 500px;
+        
+        position: absolute;
+        left:50px;
+}
+
+
+.star img {
+    position: absolute;
+    right:70px;
+    /* max-width: 20px; */
+  
+    width: 70px;
+        /* height: 30px */
+  
+}
+
+.globe img{
+    position: relative;
+    left:650px;
+    top:-50px;
+    width: 60px;
+}
+
+.hero-container-right{
+    left:530px;
+    position: absolute;
+    font-family: ;
+}
+.hero-heading{
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 100px;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+}
+
+.hero-description{
+    font-family: 'Poppins', sans-serif;
+    padding:50px;
+    text-align: center;
+    color: #7C7C7C;
+    /* font-weight: 400;
+    font-size: 15px; */
+    /* font-size: large; */
+}
+.button-email{
+    background-color: #fff;
+    padding: 7px 20px;
+    text-align: center;
+    margin: 5px;
+    color: #7C7C7C;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Orbitron', sans-serif;
+    border: 0.2px solid black;
+    
+    /* border: 3px solid black; */
+}
+
+.button-email:hover{
+    background-color: black;
+    padding: 7px 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Orbitron', sans-serif;
+    border-style: none;
+    font-weight: 600;
+
+    border: 0.1px solid black;
+}
+
+section:nth-child(2) > div > div.hero-container-right > div:nth-child(3){
+    text-align: center;
+    margin :20px;
+    font-size: larger;
+    /* background-color: black; */
+}
+.button-join{
+    background-color: #fff;
+    padding: 7px 20px;
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+    margin: 5px;
+    color: #7C7C7C;
+    /* padding: 20px; */
+    font-family: 'Orbitron', sans-serif;
+    border: 0.2px solid black;
+    
+}
+.button-join:hover{
+    background-color: black;
+    padding: 7px 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Orbitron', sans-serif;
+    border-style: none;
+    border: 0.1px solid black;
+    font-weight: 600;
+    /* font-style: italic; */
+}
+
+.contact-heading{
+    color: #3e3e3e;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight:500;
+    margin-top: 25px;
+    padding: 5px;
+}
+.icons {
+    text-align: center;
+    /* padding-left: px; */
+}
+.icons img{
+    margin: 5px;
+    height: 30px;
+}
+
+/* time 3hrs */
